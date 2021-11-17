@@ -15,7 +15,7 @@ class script(object):
 - Source - @source00Devil  
 
 <b>💞 Dev 💞:</b>
-- <a href=https://t.me/BKC0001>Aadhi a>"""
+- <a href=https://t.me/BKC0001>Aadhi"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
