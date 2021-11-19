@@ -63,7 +63,7 @@ class script(object):
 ›› /connect  - <code>connect a particular chat to your PM</code>
 ›› /disconnect  - <code>disconnect from a chat</code>
 ›› /connections - <code>list all your connections</code>"""
-   EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
 These are the extra features of ᗩᒍᗩ᙭
