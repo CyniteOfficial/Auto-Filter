@@ -83,7 +83,7 @@ async def next_page(bot, query):
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer("You are using one of my old messages, please send the request again.",show_alert=True)
+        await query.answer("Link Expired Kindly Please Search Again 🙂.",show_alert=True)
         return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
@@ -98,7 +98,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[get_size(file.file_size)}] ›› {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
