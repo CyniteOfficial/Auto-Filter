@@ -58,10 +58,10 @@ async def showid(client, message):
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text(
-        "`Fetching user info...`"
+        "`𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 𝗨𝘀𝗲𝗿...`"
     )
     await status_message.edit(
-        "`Processing user info...`"
+        "`𝗔𝗰𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻...`"
     )
     from_user = None
     from_user_id, _ = extract_user(message)
@@ -89,7 +89,7 @@ async def who_is(client, message):
                 chat_member_p.joined_date or time.time()
             ).strftime("%Y.%m.%d %H:%M:%S")
             message_out_str += (
-                "<b>➲Joined this Chat on:</b> <code>"
+                "<b>➾Joined this Chat on:</b> <code>"
                 f"{joined_date}"
                 "</code>\n"
             )
