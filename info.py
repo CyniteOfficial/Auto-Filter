@@ -1,10 +1,5 @@
 import re
 from os import environ
-import asyncio
-import json
-from collections import defaultdict
-from typing import Dict, List, Union
-from pyrogram import Client
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
@@ -14,26 +9,6 @@ def is_enabled(value, default):
         return False
     else:
         return default
-
-class evamaria(Client):
-    filterstore: Dict[str, Dict[str, str]] = defaultdict(dict)
-    warndatastore: Dict[
-        str, Dict[str, Union[str, int, List[str]]]
-    ] = defaultdict(dict)
-    warnsettingsstore: Dict[str, str] = defaultdict(dict)
-
-    def __init__(self):
-        name = self.__class__.__name__.lower()
-        super().__init__(
-            ":memory:",
-            plugins=dict(root=f"{name}/plugins"),
-            workdir=TMP_DOWNLOAD_DIRECTORY,
-            api_id=APP_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
-            parse_mode="html",
-            sleep_threshold=60
-        )
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
@@ -55,19 +30,6 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-USE_AS_BOT = environ.get("USE_AS_BOT", True)
-
-# maximum message length in Telegram
-MAX_MESSAGE_LENGTH = 4096
-
-# This is required for the plugins involving the file system.
-TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
-
-# the maximum number of 'selectable' messages in Telegram
-TG_MAX_SELECT_LEN = environ.get("TG_MAX_SELECT_LEN", "100")
-
-# Command
-COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
@@ -85,6 +47,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Da
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
+INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', 'LOG_CHANNEL'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
