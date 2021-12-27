@@ -46,10 +46,6 @@
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
         },
-        "INDEX_REQ_CHANNEL": {
-            "description": "You Can Set A seperate Group/Channel for INDEX REQ and related Things. You Can Leave Here free If You Don't Want separate It. Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": false
-        },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
             "required": false
@@ -71,11 +67,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "mongoDB URI.",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB.",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -93,7 +89,7 @@
             "required": false
         },
         "SINGLE_BUTTON": {
-            "description": "choose b/w single or double buttons https://github.com/EvamariaTG/EvaMaria/issues/22",
+            "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
             "required": false
         },
         "P_TTI_SHOW_OFF": {
