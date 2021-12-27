@@ -216,12 +216,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝗬𝗘𝗦", callback_data="autofilter_delete"
+                        text="𝗬𝗘𝗦😘", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="𝗖𝗔𝗡𝗖𝗘𝗟", callback_data="close_data"
+                        text="𝗖𝗔𝗡𝗖𝗘𝗟☹️", callback_data="close_data"
                     )
                 ],
             ]
