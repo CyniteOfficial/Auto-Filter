@@ -398,15 +398,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚜️ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚜️ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝗝𝗼𝗶𝗻 𝗚𝗿𝗼𝘂𝗽 💠', url='https://t.me/+EqhXLhL3T1w4Zjc1'),
-            InlineKeyboardButton('💠 𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💠', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+EqhXLhL3T1w4Zjc1'),
+            InlineKeyboardButton('💠 CHAИИΞL 💠', url='https://t.me/+veUIdIW2CQ5mOGU5')
             ],[
-            InlineKeyboardButton('♻️ 𝗛𝗲𝗹𝗽 ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝗔𝗯𝗼𝘂𝘁 ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 SΞARCH HΞRΞ 💠', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -433,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝗦𝗢𝗨𝗥𝗖𝗘 ♥️', url='https://github.com/Aadhi000/Ajax')
+            InlineKeyboardButton('♥️ SԾUᏒCΞ ♥️', url='https://github.com/Aadhi000/Ajax')
             ],[
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
@@ -537,7 +537,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
+            InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help'),
             InlineKeyboardButton('♻️ 𝗥𝗲𝗳𝗿𝗲𝘀𝗵 ♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
