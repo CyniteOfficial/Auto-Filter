@@ -1,6 +1,7 @@
 {
     "name": "ᗩᒍᗩ᙭",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "logo": "https://telegra.ph/file/1b837a8df2670b0097aaf.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
