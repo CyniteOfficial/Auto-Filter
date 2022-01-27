@@ -15,7 +15,7 @@ class script(object):
 
 <b>Payment Methods ››🙃⃝♥️ GooglePay Paytm PhonePe PayPal Etc..🙃⃝⃝♥️</b>
 - Contact Me For Know The Payment Info <a href=https://t.me/Aadhi011>ꪖꪖᦔꫝỉ</a>"""
-    
+  MANUELFILTER_TXT = """Help: <b>Filters</b>  
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭ will respond whenever a keyword is found the message
 
