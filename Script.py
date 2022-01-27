@@ -10,11 +10,14 @@ class script(object):
 ✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- You Can Donate Any Amount You Have 💳. 
+    SOURCE_TXT = """<b>Donation</b>
 
-<b>Payment Methods ››🙃⃝♥️ GooglePay Paytm PhonePe PayPal Etc..🙃⃝⃝♥️</b>
-- Contact Me For Know The Payment Info <a href=https://t.me/Aadhi011>ꪖꪖᦔꫝỉ</a>"""
+⪼ <b>𝐘𝐨𝐮 𝐂𝐚𝐧 𝐃𝐨𝐧𝐚𝐭𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 💳. 
+
+  <b>Payment Methods ››
+♥️ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆 𝗣𝗮𝘆𝘁𝗺 𝗣𝗵𝗼𝗻𝗲𝗣𝗲 𝗣𝗮𝘆𝗣𝗮𝗹 Etc..♥️</b>
+
+💌 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨 <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>  
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭ will respond whenever a keyword is found the message
