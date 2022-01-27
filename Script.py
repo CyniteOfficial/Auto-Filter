@@ -11,11 +11,11 @@ class script(object):
 ✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- ᗩᒍᗩ᙭ is  not an open source project. 
+- You Can Donate Any Amount You Have 💳. 
 
-<b>💞 Dev 💞:</b>
-- <a href=https://t.me/BKC0001>Aadhi</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+<b>Payment Methods ››🙃⃝♥️ GooglePay Paytm PhonePe PayPal Etc..🙃⃝⃝♥️</b>
+- Contact Me For Know The Payment Info <a href=https://t.me/Aadhi011>ꪖꪖᦔꫝỉ</a>"""
+    
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭ will respond whenever a keyword is found the message
 
