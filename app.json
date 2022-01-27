@@ -96,20 +96,19 @@
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",
             "value": "<b>📟 Movie Name</b> : <b><a href={url}>{title}</a></b>
-<b>🗒️ Release Date</b> : <b>{release_date}</b>
+                      <b>🗒️ Release Date</b> : <b>{release_date}</b>
 
-<b>📧 Votes</b> : <b>{votes}</b>
-<b>⏰ RunTime</b> : <b>{runtime} Minutes</b>
-<b>⭐ IMDB Rating</b> : <b><a href={url}/ratings>{rating}/10</a></b>
-<b>🎞️ Genres</b> : <b>{genres}</b>
-<b>🎬 Director</b> : <b>{director}</b>
-<b>📝 Writer</b> : <b>{writer}</b>
-<b>🔊 Languages</b> : <b>{languages}</b>
-<b>💃🏻 Cast</b> : <b>{cast}</b>
+                      <b>📧 Votes</b> : <b>{votes}</b>
+                      <b>⏰ RunTime</b> : <b>{runtime} Minutes</b>
+                      <b>⭐ IMDB Rating</b> : <b><a href={url}/ratings>{rating}/10</a></b>
+                      <b>🎞️ Genres</b> : <b>{genres}</b>
+                      <b>🎬 Director</b> : <b>{director}</b>
+                      <b>📝 Writer</b> : <b>{writer}</b>
+                      <b>🔊 Languages</b> : <b>{languages}</b>
+                      <b>💃🏻 Cast</b> : <b>{cast}</b>
 
-<b>👩🏻‍💻 Requested By</b> : <b>{requested}</b>
-<b>🚀 Group</b> : <b>{group}</b>
-",
+                      <b>👩🏻‍💻 Requested By</b> : <b>{requested}</b>
+                      <b>🚀 Group</b> : <b>{group}</b>",
             "required": false  
         },
         "SINGLE_BUTTON": {
