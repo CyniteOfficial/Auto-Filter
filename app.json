@@ -45,7 +45,11 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": true      
+            "required": true   
+        },
+        "INDEX_REQ_CHANNEL": {
+            "description": "Same Logs channel id with -100xxxxxxx",
+            "required": true
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
