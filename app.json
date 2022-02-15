@@ -84,6 +84,11 @@
             "value": "Ajax_Files",
             "required": false
         },
+        "SUPPORT_CHAT": {
+            "description": "Updated Channel Username Without @ Not Chanel ID",
+            "value": "MW Updatez",
+            "required": false
+        },
         "CACHE_TIME": {
             "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
             "value": "300",
