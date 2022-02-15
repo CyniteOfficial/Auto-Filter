@@ -65,6 +65,8 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "value": "<i><b>📟 Movie Name</b></i> : <i><b><a href={url}>{title}</a></b></i>\n<i><b>🗒️ Release Date</b></i> : <i><b>{release_date}</b></i>/n/n<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i>/n<i><b>⏰ RunTime</b></i> : <i><b>{runtime} Minutes</b></i>/n<i><b>⭐ IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i>/n<i><b>🎞️ Genres</b></i> : <i><b>{genres}</b></i>/n<i><b>🎬 Director</b></i> : <i><b>{director}</b></i>/n<i><b>📝 Writer</b></i> : <i><b>{writer}</b></i>
+<i><b>🔊 Languages</b></i> : <i><b>#{languages}</b></i>/n<i><b>💃🏻 Cast</b></i> : <b>{cast}</b></i>/n/n<i><b>👩🏻‍💻 Requested By</b></i> : <i><b>{requested}</b></i>/n<i><b>🚀 Group</b></i> : <i><b>{group}</b></i>",
             "required": false
         },
         "DATABASE_URI": {
