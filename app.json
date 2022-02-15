@@ -49,11 +49,7 @@
         },
         "INDEX_REQ_CHANNEL": {
             "description": "Same Logs channel id with -100xxxxxxx",
-            "required": true
-        },
-        "SUPPORT_CHAT": {
-            "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
-            "required": false
+            "required": true       
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
