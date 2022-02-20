@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logoo.jpg" alt="Ajax Techz">
+  <img src="assets/logo.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
   <b>ᗩᒍᗩ᙭ Iᗰᗪᗷ ᗷOT ᐯ3</b>
