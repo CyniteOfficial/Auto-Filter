@@ -25,6 +25,30 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
+FILTER_MODE = {}
+
+@Client.on_message(filters.command('autofilter'))
+async def fil_mod(client, message): 
+      mode_on = ["yes", "on", "true"]
+      mode_of = ["no", "off", "false"]
+
+      try: 
+         args = message.text.split(None, 1)[1].lower() 
+      except: 
+         return await message.reply("Incomplete Command...")
+      
+      m = await message.reply("Setting.../")
+
+      if args in mode_on:
+          FILTER_MODE[str(message.chat.id)] = "True" 
+          await m.edit("Autofilter Enabled successfully")
+      
+      elif args in mode_of:
+          FILTER_MODE[str(message.chat.id)] = "False"
+          await m.edit("Autofilter disabled successfully")
+      else:
+          await m.edit("Use :- /autofilter on Or /autofilter off")
+
 
 
 
