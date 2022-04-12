@@ -408,7 +408,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
         reply1 = await query.message.reply_text(
             text="▢▢▢"
         )
@@ -425,6 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="▣▣▣"
         )
         await reply4.delete()
+        reply_markup = InlineKeyboardMarkup(buttons)      
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
@@ -458,8 +458,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="▣▣▣"
         )
         await reply4.delete()
-            parse_mode='html'
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -488,9 +486,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
-        await reply4.delete()
-            parse_mode='html'
-        )
+        await reply4.delete()           
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
