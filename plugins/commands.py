@@ -59,8 +59,7 @@ async def start(client, message):
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
-        await reply4.delete()
-            parse_mode='html'
+        await reply4.delete()           
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -120,8 +119,7 @@ async def start(client, message):
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
-        await reply4.delete()
-            parse_mode='html'
+        await reply4.delete()           
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
