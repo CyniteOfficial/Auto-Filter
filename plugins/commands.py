@@ -60,7 +60,6 @@ async def start(client, message):
             text="▣▣▣"
         )
         await reply4.delete()           
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -120,7 +119,6 @@ async def start(client, message):
             text="▣▣▣"
         )
         await reply4.delete()           
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
