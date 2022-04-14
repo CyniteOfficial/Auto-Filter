@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/Aadhi000/Ajax",
-    "repository": "https://github.com/Aadhi000/Ajax",
+    "repository": "https://github.com/file-sharing-bot-nbs/Ajax",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
