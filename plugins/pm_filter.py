@@ -621,8 +621,6 @@ async def auto_filter(client, msg, spoll=False):
     imdb = await get_poster(search, file=(files[0]).file_name) if IMDB else None
     if imdb:
         cap = IMDB_TEMPLATE.format(
-            group = message.chat.title,
-            requested = message.from_user.mention,
             query = search,
             title = imdb['title'],
             votes = imdb['votes'],
