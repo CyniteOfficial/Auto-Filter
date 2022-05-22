@@ -128,4 +128,4 @@ This module only works for my OᗯᑎEᖇ⚡
 <b>/carbon ›› 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰𝙽𝚈 𝚃𝙴𝚇𝚃 𝙼𝙴𝚂𝚂𝙰𝙶𝙴</b>
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙾𝙽 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-<b>𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ››</b> <a href=https://youtube.com/c/TechnicalAks01>Ayush</a></b>"""
+<b>𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ››</b> <a href=https://youtube.com/c/TechnicalAks01>Technicalaks</a></b>"""
