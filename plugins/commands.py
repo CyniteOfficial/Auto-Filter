@@ -42,9 +42,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
             InlineKeyboardButton('CONTACT ME', url='https://t.me/Aks_support01_bot'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCRIBE ✅', url='https://youtube.com/channel/technicalaks01')
-        ]]
+            ],[ InlineKeyboardButton('- Sᴇᴀʀᴄʜ Iɴʟɪɴᴇ-', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -86,9 +84,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
             InlineKeyboardButton('CONTACT ME', url='https://t.me/Aks_support01_bot'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCRIBE ✅', url='https://youtube.com/channel/technicalaks01')
-        ]]
+            ],[ InlineKeyboardButton('- Sᴇᴀʀᴄʜ Iɴʟɪɴᴇ-', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
